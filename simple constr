@@ -1,0 +1,29 @@
+public class tra{
+    String name;
+    String id;
+    int age;
+public tra(String name,String id,int age){
+    this.name=name;
+    this.id=id;
+    this.age=age;
+}
+
+    public tra(String Display) {
+    }
+public String getname(){
+    return name;
+}
+public String getid(){
+    return id;
+}
+public int getage(){
+    return age;
+}
+public String Display(){
+    return ("The student name is "+this.name+" the id is :"+this.id+"the age of the Student is:"+this.age);
+}
+public static void main(String[] args){
+    tra obj = new tra("surya","su432",23);
+    System.out.println(obj.Display());
+}
+}
